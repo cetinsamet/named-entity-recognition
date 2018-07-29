@@ -8,7 +8,7 @@ from train import NamedEntityRecognizer
 
 def main(argv):
     if len(argv)!=1:
-        print("Usage: python3 pos_tag.py input-sentence")
+        print("Usage: python3 ner.py input-sentence")
         exit()
 
     # READ USER INPUT SENTENCE
