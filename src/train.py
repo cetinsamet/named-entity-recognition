@@ -47,7 +47,7 @@ class NamedEntityRecognizer():
                         'is_numeric'        : token.isdigit(),
 
                         'prefix-1'          : token[0],
-                        'prefix-2'          : '' if len(token) < 2  else token[:1],
+                        'prefix-2'          : '' if len(token) < 2  else token[:2],
 
                         'suffix-1'          : token[-1],
                         'suffix-2'          : '' if len(token) < 2  else token[-2:],
